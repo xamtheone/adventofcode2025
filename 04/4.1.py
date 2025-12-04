@@ -1,6 +1,6 @@
 import sys
 
-grid = open(sys.argv[1]).read().splitlines()
+grid = open(sys.argv[1]).read().strip().splitlines()
 
 G = len(grid)
 
